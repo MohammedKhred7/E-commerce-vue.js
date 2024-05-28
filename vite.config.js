@@ -5,7 +5,7 @@ import vue from '@vitejs/plugin-vue'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/e-commerce/',
+  base: '/E-commerce-vue.js/',
   assetsDir: 'assets',
   css: {
     devSourcemap: true
@@ -19,7 +19,6 @@ export default defineConfig({
       }
     })
   ],
-  base: "/vite/deploy",
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
